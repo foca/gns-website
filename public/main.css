@@ -1,0 +1,61 @@
+html {
+  background: #000;
+}
+
+#content, #header {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 200px;
+  background: url(/header.png) no-repeat center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#header a {
+  display: block;
+  width: 642px;
+  height: 200px;
+  margin: 0 auto;
+  text-indent: -9999em;
+}
+
+#social-networks {
+  position: relative;
+  margin: 20px auto 0;
+  width: 800px;
+  height: 64px;
+}
+
+#social-networks li {
+  float: left;
+  font: 20px/50px Helvetica, Arial, sans-serif;
+}
+
+#social-networks a {
+  color: #ef0000;
+  display: block;
+  padding: 0 10px 0 80px;
+  height: 60px;
+}
+
+#social-networks .twitter {
+  position: absolute;
+  right: 400px;
+}
+
+#social-networks .facebook {
+  position: absolute;
+  left: 400px;
+}
+
+
+#social-networks .twitter a {
+  background: url(/twitter.png) no-repeat;
+}
+
+#social-networks .facebook a {
+  background: url(/facebook.png) no-repeat;
+}
